@@ -1409,6 +1409,7 @@
 
 		@media screen and (max-width: 480px){
 			max-width: 100%;
+			max-height: max-content;
 			
 		}
 	}
@@ -1789,14 +1790,12 @@
 
 	@media screen and (max-width: 480px) {
 			margin-left: 1em;
-			padding-right: 1em;
 			font-size: 10pt;
-			padding-left: 1em;
 		    padding-right: 1em;
 			font-size: 0.95em;
 
 		.h3 {
-			font-size: 13pt;
+			font-size: 14pt;
 			color: rgb(255, 3, 2)	
 		}
 
@@ -1820,9 +1819,9 @@
 		margin-left: 1.5em;
 		font-size: 1em;
 		text-align: center;
-		height: 250px;
-		max-height: 250px;
+		max-height: 200px;
 		margin-top: 1em;
+		background-color: dimgrey;
 		
 	}
 
