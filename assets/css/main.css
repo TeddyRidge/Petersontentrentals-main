@@ -767,7 +767,7 @@
 		position: relative;
 		overflow: hidden;
 		min-height: 40em;
-		pointer-events: none;
+		
 	}
 
 		@media screen and (max-width: 980px) {
@@ -873,6 +873,7 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
+			pointer-events: none;
 		}
 
 			.gallery .content .media {
